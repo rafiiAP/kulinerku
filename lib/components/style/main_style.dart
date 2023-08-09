@@ -6,6 +6,7 @@ import '../../data/contant/color.dart';
 
 class MainStyle {
   static final light = ThemeData(
+    scaffoldBackgroundColor: ColorConfig.white,
     brightness: Brightness.light,
     colorScheme: const ColorScheme.light().copyWith(
       primary: ColorConfig.mainColor,
@@ -13,6 +14,11 @@ class MainStyle {
       background: ColorConfig.mainColor,
       secondary: ColorConfig.mainColor,
       onBackground: ColorConfig.mainColor,
+    ),
+    appBarTheme: const AppBarTheme(
+      elevation: 0,
+      backgroundColor: ColorConfig.transparent,
+      foregroundColor: ColorConfig.mainColor,
     ),
     primaryColor: ColorConfig.mainColor,
     textTheme: TextTheme(

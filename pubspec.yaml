@@ -39,7 +39,8 @@ dependencies:
   intl: ^0.18.1
   flutter_launcher_icons: "^0.13.1"
   flutter_native_splash: ^2.3.1
-  introduction_screen: ^3.1.11
+  carousel_slider: ^4.2.1
+  buttons_tabbar: ^1.3.7+1
 
 
 flutter_launcher_icons:
@@ -49,9 +50,9 @@ flutter_launcher_icons:
   min_sdk_android: 21 
 
 flutter_native_splash:
-  color: "#FF725E"
+  color: "#F9A11B"
   image: assets/images/native_splash.png
-  color_dark: "#FF725E"
+  color_dark: "#F9A11B"
   image_dark: assets/images/native_splash.png
 
   android_12:

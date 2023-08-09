@@ -38,12 +38,53 @@ class MainWidgets {
   }) {
     return Text(
       text,
-      style: Get.textTheme.titleLarge!.copyWith(
-        color: color,
-      ),
+      style: Get.textTheme.titleLarge!
+          .copyWith(color: color, fontWeight: FontWeight.bold),
       maxLines: maxLines,
       textAlign: textAlign,
       overflow: overflow,
     );
+  }
+
+  //------------------------BUTTON-------------------------------
+  myElevatedButton({
+    required void Function()? onPressed,
+    String? text,
+    Color? textColor,
+    Size? fixedSize,
+  }) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      child: W.textBody(
+        text!,
+        color: textColor,
+      ),
+      style: ElevatedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        fixedSize: fixedSize,
+      ),
+    );
+  }
+
+  myTextButton({
+    required void Function()? onPressed,
+    String? text,
+    Color? textColor,
+  }) {
+    return TextButton(
+      onPressed: onPressed,
+      child: W.textBody(
+        text!,
+        color: textColor,
+        fontWeight: FontWeight.bold,
+      ),
+    );
+  }
+
+  //------------------------IMAGE--------------------------------
+  aspectRatioImage({required double aspectRatio, String? image}) {
+    return AspectRatio(aspectRatio: aspectRatio, child: Image.asset(image!));
   }
 }

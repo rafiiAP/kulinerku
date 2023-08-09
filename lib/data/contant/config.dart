@@ -1,0 +1,25 @@
+class Config {
+  static const String data =
+      'Pastikan Anda mengganti URL gambar dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan efek parallax yang memungkinkan judul dan gambar latar belakang untuk berinteraksi ketika pengguna menggulir layar. SliverList digunakan untuk menampilkan daftar item di bawah SliverAppBar.'
+      'Anda dapat menyesuaikan berbagai properti SliverAppBar, seperti expandedHeight, floating, pinned, dan lain-lain, sesuai dengan kebutuhan desain aplikasi Anda. Jangan ragu untuk bereksperimen dengan kode di atas untuk menciptakan efek dan tampilan yang Anda inginkan.'
+      'Pastikan Anda mengganti URL gambar latar belakang dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan gambar latar belakang, judul, dan ikon aksi seperti yang terlihat di Play Store. Kami juga menggunakan SliverGrid untuk menampilkan daftar item dalam bentuk grid di bawah SliverAppBar.'
+      'Harap diingat bahwa tampilan Play Store memiliki banyak fitur dan desain yang kompleks, sehingga contoh di atas hanya merupakan awal yang sederhana. Anda mungkin perlu menyesuaikan kode ini dan menambahkan lebih banyak widget dan logika untuk mencapai tampilan yang lebih mendekati Play Store sebenarnya.'
+      'Dalam contoh di atas, kami menggunakan DefaultTabController untuk mengatur jumlah tab dan memastikan bahwa TabBar dan TabBarView terhubung dengan benar. Kami menambahkan TabBar di bawah SliverAppBar, dan untuk konten tab, kami menggunakan SliverFillRemaining bersama dengan TabBarView dan widget Center untuk mengisi konten dari setiap tab.'
+      'Pastikan untuk mengganti URL gambar latar belakang dan menyesuaikan konten setiap tab sesuai dengan kebutuhan aplikasi Anda.'
+      'Pastikan Anda mengganti URL gambar latar belakang dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan gambar latar belakang, judul, dan ikon aksi seperti yang terlihat di Play Store. Kami juga menggunakan SliverGrid untuk menampilkan daftar item dalam bentuk grid di bawah SliverAppBar.'
+      'Harap diingat bahwa tampilan Play Store memiliki banyak fitur dan desain yang kompleks, sehingga contoh di atas hanya merupakan awal yang sederhana. Anda mungkin perlu menyesuaikan kode ini dan menambahkan lebih banyak widget dan logika untuk mencapai tampilan yang lebih mendekati Play Store sebenarnya.'
+      'Pastikan Anda mengganti URL gambar dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan efek parallax yang memungkinkan judul dan gambar latar belakang untuk berinteraksi ketika pengguna menggulir layar. SliverList digunakan untuk menampilkan daftar item di bawah SliverAppBar.'
+      'Anda dapat menyesuaikan berbagai properti SliverAppBar, seperti expandedHeight, floating, pinned, dan lain-lain, sesuai dengan kebutuhan desain aplikasi Anda. Jangan ragu untuk bereksperimen dengan kode di atas untuk menciptakan efek dan tampilan yang Anda inginkan.'
+      'Pastikan Anda mengganti URL gambar latar belakang dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan gambar latar belakang, judul, dan ikon aksi seperti yang terlihat di Play Store. Kami juga menggunakan SliverGrid untuk menampilkan daftar item dalam bentuk grid di bawah SliverAppBar.'
+      'Harap diingat bahwa tampilan Play Store memiliki banyak fitur dan desain yang kompleks, sehingga contoh di atas hanya merupakan awal yang sederhana. Anda mungkin perlu menyesuaikan kode ini dan menambahkan lebih banyak widget dan logika untuk mencapai tampilan yang lebih mendekati Play Store sebenarnya.'
+      'Dalam contoh di atas, kami menggunakan DefaultTabController untuk mengatur jumlah tab dan memastikan bahwa TabBar dan TabBarView terhubung dengan benar. Kami menambahkan TabBar di bawah SliverAppBar, dan untuk konten tab, kami menggunakan SliverFillRemaining bersama dengan TabBarView dan widget Center untuk mengisi konten dari setiap tab.'
+      'Pastikan untuk mengganti URL gambar latar belakang dan menyesuaikan konten setiap tab sesuai dengan kebutuhan aplikasi Anda.'
+      'Pastikan Anda mengganti URL gambar latar belakang dengan tautan gambar yang Anda inginkan.'
+      'Dalam contoh ini, kami menggunakan SliverAppBar dengan gambar latar belakang, judul, dan ikon aksi seperti yang terlihat di Play Store. Kami juga menggunakan SliverGrid untuk menampilkan daftar item dalam bentuk grid di bawah SliverAppBar.'
+      'Harap diingat bahwa tampilan Play Store memiliki banyak fitur dan desain yang kompleks, sehingga contoh di atas hanya merupakan awal yang sederhana. Anda mungkin perlu menyesuaikan kode ini dan menambahkan lebih banyak widget dan logika untuk mencapai tampilan yang lebih mendekati Play Store sebenarnya.';
+}
