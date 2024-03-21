@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:get/get.dart';
-import 'package:kulinerku/view/page/home/home.dart';
+import 'package:kulinerku/view/page/dashboard/dashboard.dart';
 
 import '../../../data/models/introduction_model.dart';
 
@@ -31,7 +31,7 @@ class SplashGetx extends GetxController {
     currentIndex.value = index;
   }
 
-  toHome() {
-    Get.offAll(HomePage());
+  toDashboard() {
+    Get.offAll(DashboardPage());
   }
 }

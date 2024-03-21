@@ -31,14 +31,19 @@ class ContentView extends StatelessWidget {
               const SizedBox(
                 height: 40,
               ),
-              W.textTitle(introductionModel.title!),
+              W.textTitle(
+                introductionModel.title!,
+                // color: ThemeMode.system == ThemeMode.dark
+                //     ? ColorConfig.white
+                //     : ColorConfig.black,
+              ),
               const SizedBox(
                 height: 100,
               ),
               introductionModel.index == 2
                   ? W.myElevatedButton(
                       onPressed: () {
-                        ctrl.toHome();
+                        ctrl.toDashboard();
                       },
                       text: 'Let’s Start!',
                       textColor: ColorConfig.white,
